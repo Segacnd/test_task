@@ -1,0 +1,32 @@
+.textWrapper {
+  display: flex;
+  gap: 10px;
+  flex: 1;
+  align-items: center;
+  padding: 20px 0;
+}
+
+.iconWrapper {
+  background-color: #ebe2f1;
+  padding: 3px;
+  border-radius: 4px;
+}
+
+.section {
+  border-top: 1em solid transparent;
+}
+
+.section::before {
+  height: 20px;
+  display: table-row;
+  content: "";
+  background-color: #ebe2f1;
+}
+
+.first {
+  border-radius: 0 0 0 16px;
+}
+
+.last {
+  border-radius: 0 0 16px 0;
+}

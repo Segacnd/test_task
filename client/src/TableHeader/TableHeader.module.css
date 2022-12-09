@@ -1,0 +1,34 @@
+.root {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 240px 100px 150px 100px;
+  background-color: #fbf9fc;
+  border-radius: 16px 16px 0 0;
+  overflow: hidden;
+}
+
+thead {
+  background-color: #fbf9fc;
+}
+
+.first {
+  border-radius: 16px 0 0 0;
+}
+
+.last {
+  border-radius: 0 16px 0 0;
+}
+
+.tableItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  height: 65px;
+}
+
+.iconWrapper {
+  background-color: #ebe2f1;
+  padding: 3px;
+  border-radius: 4px;
+}
